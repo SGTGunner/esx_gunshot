@@ -6,7 +6,8 @@ Ger möjligheten att kolla ifall en person avfyrat ett vapen (genom GSR-test).
 Vid installation har alla möjlighet att göra testet genom /guntest, se rad 16-21 i client.lua. För att implementera scriptet i polisernas meny från esx_policejob, gör följande:
 
 **1.** Radera rad 16-21 i client.lua
-**2.** Gå till 
+
+**2.** Gå till följande rad i esx_policejob client.lua
 ```LUA
 title    = _U('citizen_interaction'),
 ```
