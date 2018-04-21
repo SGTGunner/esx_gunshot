@@ -63,8 +63,6 @@ Citizen.CreateThread(function()
 		
 		if IsPedShooting(GetPlayerPed(-1)) then
 			hasShot = true
-		else
-			hasShot = false
 		end
 
 		if (hasShot) then
