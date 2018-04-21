@@ -59,7 +59,7 @@ end)
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(1000)
+		Citizen.Wait(0)
 		
 		if IsPedShooting(GetPlayerPed(-1)) then
 			hasShot = true
